@@ -15,6 +15,32 @@ body {
 img {
     max-width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: #4aaaa5;
+    -webkit-transition-duration: none;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+}
+    a:hover {
+        text-decoration: none;
+        color: #adadad;
+        -webkit-transition-duration: none;
+        -moz-transition-duration: .6s;
+        -o-transition-duration: .6s;
+        transition-duration: .6s;
+    }
+
+    img, img:hover {
+    -webkit-transition-duration: none;
+    -moz-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s;
+    }
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia;
     font-weight: bold;
@@ -22,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
  h2 {
      font-size: 1.3em;
  }
+
 
 .content-width {
     width: 960px;
@@ -80,6 +107,10 @@ li.nav-item {
         margin: 15px;
     }
 
+    .center-portfolio {
+        text-align: center;
+    }
+
     .portfolio_item img {
         clear: both;
         margin-bottom: 8px;
@@ -88,6 +119,7 @@ li.nav-item {
         font-size: .7em;
         line-height: 1.2em;
         display: inline-block;
+        text-align: center;
     }
     .portfolio_item img:hover {
         -webkit-box-shadow: 0px 0px 30px 12px rgba(110,207,201,1);
